@@ -1,0 +1,67 @@
+html, body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+body {
+  
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  background: black;
+  color: white;
+
+  border: 1px solid white;
+
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+header {
+
+  display: flex;
+  flex-direction: row;
+
+  padding: 8px;
+  gap: 4px;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 32px;
+}
+
+main {
+
+}
+
+table {
+  table-layout: fixed;
+  width: 1px;
+  border-collapse: collapse;
+
+  margin: auto;
+}
+
+td {
+  height: 16px !important;
+  min-height: 16px;
+  width: 16px !important;
+  min-width: 16px;
+
+  background-color: inherit;
+
+  border: 1px solid #ffffff11;
+
+  &.alive {
+    background-color: white !important;
+  }
+
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
